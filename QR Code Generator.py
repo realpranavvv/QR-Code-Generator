@@ -3,7 +3,7 @@ import pyqrcode
 from pyqrcode import QRCode 
 
 print( "QR Code Genrator")
-link  = str(input("Enter the link:"))  
+link  = input("Enter the link:") 
 
 s = (link) 
 url = pyqrcode.create(s) 
